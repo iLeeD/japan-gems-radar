@@ -1,0 +1,12 @@
+# Sécurité : NE JAMAIS ENVOYER LES CLÉS
+.env
+streamlit/secrets.toml
+
+# Données : On ne versionne pas la base SQLite
+*.db
+*.db-journal
+
+# Python : Fichiers temporaires
+__pycache__/
+*.py[cod]
+.venv/
